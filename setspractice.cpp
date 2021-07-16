@@ -63,7 +63,35 @@ print(s);
 	abc
 	dfg
 	tyh
+	*/
  ////s.erase value bhi input leta and iterator bhi input leta h
 
 	
 }
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//find unique strings using set in lexacial order set use krengy already sorted hota h
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    set<string>s;
+    int n;
+    cin>>n;
+    for(int i=0;i<n;i++){
+        string str;
+        cin>>str;
+        s.insert(str);
+
+    }
+    for(auto value:s){
+        cout<<value<<endl;
+    }
+    }
+ /*input          output
+ 7
+abc              abc
+abc              rgf
+rgf              egf
+egf
+rgf
+egf
+egf
