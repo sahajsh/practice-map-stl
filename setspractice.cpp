@@ -63,7 +63,7 @@ print(s);
 	abc
 	dfg
 	tyh
- 
+ ////s.erase value bhi input leta and iterator bhi input leta h
 
 	
 }
