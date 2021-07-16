@@ -93,3 +93,41 @@ int main() {
 
 	return 0;
 }
+///#include <bits/stdc++.h>
+using namespace std;
+void print(map<string,string> &m){
+    cout<<m.size()<<endl;
+    for(auto &pr:m){
+        cout<<pr.first <<" "<<pr.second<<endl;
+    }
+}
+int main() {
+	map<string ,string>m;
+    
+    m["Zbjhb"]="adcf";//s.size()*log(n)
+    
+    print(m);
+  
+
+	return 0;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#include <bits/stdc++.h>
+using namespace std;
+void print(map<string,string> &m){
+    cout<<m.size()<<endl;
+    for(auto &pr:m){
+        cout<<pr.first <<" "<<pr.second<<endl;
+    }
+}
+int main() {
+	map<string ,string>m;
+    
+    m["Zbjhb"]="adcf";//s.size()*log(n)
+    
+    print(m);
+  
+
+	return 0;
+}
+
