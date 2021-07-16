@@ -4,7 +4,8 @@ Given N strings and Q queries in each query you have given a string print YES if
 else print NO
 */
 //o(1) time complexity mein vrna log(n) hoti maps mein
-
+//unordered set and unordered map hastable se implement huy
+//complex data structures like vector and pair nhi rkh skty unordered map and set mein
 
 
 #include <bits/stdc++.h>
