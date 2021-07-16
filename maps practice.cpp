@@ -49,3 +49,24 @@ int main() {
 
 	return 0;
 }
+///////////////////////////////////////////////////////////////
+#include <bits/stdc++.h>
+using namespace std;
+void print(map<int,string> &m){
+    cout<<m.size()<<endl;
+    for(auto &pr:m){
+        cout<<pr.first <<" "<<pr.second<<endl;
+    }
+}
+int main() {
+     map<int ,string>m;
+    m[3]="ansk";//insert krny ki time complexity o(log(n))
+    m[2]="ass";
+    m[8]="ass";
+    auto it=m.find(2);// o(log(n)) time complexity
+    m.erase(it);//o(log(n)) //iterator ki bhi values de skty h jis bhi pair ko point krrha hoga vo pair delete hojayega
+    print(m);
+  
+
+	return 0;
+}
