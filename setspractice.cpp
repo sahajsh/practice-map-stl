@@ -41,4 +41,29 @@ tyh
 */
 	
 }
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#include <bits/stdc++.h>
+using namespace std;
+void print(set<string>s){
+    for(auto value:s){
+        cout<<value<<endl;
+    }
+}
+int main() {
+	set<string>s;
+    s.insert("abc");//log(n) insertion 
+    s.insert("dfg");
+    s.insert("tyh");
+    auto it=s.find("abcd");//o(log(n)) agar yaha abc hota to delete ho jata in output
+    if(it!=s.end())
+        s.erase(it);
 
+print(s);
+	/*
+	abc
+	dfg
+	tyh
+ 
+
+	
+}
